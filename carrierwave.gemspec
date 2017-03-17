@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency "activemodel", ">= 4.0.0"
   s.add_dependency "mime-types", ">= 1.16"
   s.add_dependency "ssrf_filter", "~> 1.0"
+  s.add_dependency "hana", ">= 1.3.2"
   if RUBY_ENGINE == 'jruby'
     s.add_development_dependency 'activerecord-jdbcpostgresql-adapter'
   else
